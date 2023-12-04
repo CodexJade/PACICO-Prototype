@@ -11,8 +11,7 @@ Again, we're sorry for some inconviences encountered while making this.
 Thank you, and in all things, God may be glorified.
 
 
-Jade Carlos Castillo
-
+Jade Carlos Castillo<br>
 Assistant Leader (Group 3 - Pope Pius X)
 
 
