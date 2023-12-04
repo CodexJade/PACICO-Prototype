@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>PACICO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+</html>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="pictures/logo.png"></a>
+        <ul class="navlist">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+        </ul>
+    </header>
+    
+    <section class="parallax-home">
+        <img src="pictures/stars.png" id="stars">
+        <img src="pictures/sun.png" id="sun">
+        <img src="pictures/mountain.png" id="mountain">
+        <h2 id="text">Welcome</h2>
+        <p>For people dissatisfied on the manual ways of customer service,<br>PACICO right here helps you overcome that in many levels.
+            <br>It is a little bit innovative and offers swift and tailored problem-solving,<br> ensuring a superior customer experience<br>
+           and signficant time and cost savings.
+        </p>
+        <a href="#about" id="btn" class="active2">Learn More</a>
+        <img src="pictures/app.png" id="app">
+        <img src="pictures/land.png" id="land">
+    </section>
+
+    <section class="info" id="about">
+        <h2>About Our Website</h2>
+        <p id="value-prop"> The website features a chatbot called PACICO, which is derived from the acronym of Pasig Catholic College, meaning "Personal Assistant Companion for Interaction, Counseling and Operation." 
+            The chatbot ensures data safety and serves as a help center for guests and students with concerns about the school system. The project aims to enhance the institution's technological influence and use, with automatic functions 
+            and fast processes for delivering messages. Inspired by chatbot inventions like SimSimi, Voiceflow, ChatGPT and Facebook Messenger chatbots, 
+            PACICO is an actual friend for all PCCians, providing protection and responsiveness. <br><br>
+            To try the chatbot, click the icon in the bottom right corner.
+        </p>
+    </section>
+
+    <section class="credits" id="work">
+         <h2>Work</h2>
+         <h4>Our project aims to develop a system to where you can get information about PCC with the power of A.I.</h4>
+         <img src="pictures/bookshelf.png" id="bookshelf">
+         <img src="pictures/shelf.png" id="cabinet">
+         <img src="pictures/couch.png" id="couch">
+         <div class="work-info">
+            <div class="work-data">
+            <span class="material-symbols-outlined" id="dynamic">dynamic_form</span>
+            <h2 id="first-info">Fast and Responsive<br>depending on the Network</h2>
+            </div>
+            <div class="work-data">
+            <span class="material-symbols-outlined" id="query">query_stats</span>
+            <h2 id="second-info">Accurate Information</h2>
+            </div>
+            <div class="work-data">
+            <span class="material-symbols-outlined" id="money">money_off</span>
+            <h2 id="third-info">Free to Use</h2>
+            </div>
+            <div class="work-data">
+            <span class="material-symbols-outlined" id="ar">ar_on_you</span>
+            <h2 id="fourth-info">Interactive and Integrative</h2>
+            </div>
+         </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <section class="contacts" id="contacts">
+        <img src="pictures/glowingsun.png" id="glowingsun">
+        <img src="pictures/city.png" id="cities">
+        <img src="pictures/2land.png" id="2land">
+        <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d965.4203897613341!2d121.07649482426375!3d14.560193981357141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c87f24b30353%3A0xe23c5dcee145d66f!2sPasig%20Catholic%20College!5e0!3m2!1sen!2sph!4v1701182965209!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+        <h2 id="title">Contacts</h2>
+        <div class="contact-info">
+            <span class="material-symbols-outlined" id="mail">mail</span>
+            <h2 id="mail-address">pacico@pccnet.edu.ph</h2>
+            <span class="material-symbols-outlined" id="call">call</span>
+            <h2 id="contact-number">(02)-123-4567</h2>
+            <h2 id="contact-number2">(02)-123-4567</h2>
+        </div>
+    </section>
+
+    <script type="text/javascript">
+        (function(d, t) {
+            var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+            v.onload = function() {
+              window.voiceflow.chat.load({
+                verify: { projectID: '6558156463d2b3000791e7cb' },
+                url: 'https://general-runtime.voiceflow.com',
+                versionID: 'production'
+              });
+            }
+            v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+        })(document, 'script');
+      </script>
+      <script src="style.js"></script>
+</body>
